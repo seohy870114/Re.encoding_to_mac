@@ -17,9 +17,14 @@
 이 도구는 **FFmpeg**을 활용하여 위 문제들을 해결하고, Mac 하드웨어 가속에 최적화된 표준 MP4를 생성합니다.
 
 ## 🛠 주요 기술 스택
-- **Language:** Python 3.x
-- **Engine:** FFmpeg (Universal Multimedia Framework)
+- **Language:** Python 3.14 (Virtual Environment)
+- **Engine:** FFmpeg with `h264_videotoolbox` (Hardware Acceleration)
 - **UI:** Gradio (Web-based Interface)
+
+## 🚀 주요 기능
+- **초고속 하드웨어 가속:** Mac의 미디어 엔진을 사용하여 초당 수백 프레임의 변환 속도 제공.
+- **Mac 표준 최적화:** `yuv420p` 픽셀 포맷 및 `faststart` 인덱싱 자동 적용.
+- **일괄 변환(Batch Processing):** 여러 파일을 동시에 드래그 앤 드롭하여 한 번에 변환 가능.
 
 ## 🚀 설치 및 실행 방법
 
